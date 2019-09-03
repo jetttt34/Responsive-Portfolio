@@ -1,0 +1,305 @@
+
+ * {
+    background-color: #ffffff;
+   box-sizing: border-box;
+   text-align: left;
+ }
+ .previewlinks{
+   text-decoration: turquoise;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   font-size: 18px;
+ }
+ 
+ html{
+   background-image: url("../images/email-pattern.png");
+ }
+ 
+ .clear{
+   clear: both;
+ }
+ 
+ body {
+   background-image: url("../images/email-pattern.png");
+ height:100%;
+ margin: 0 auto;
+ }
+ .a-type{
+ text-decoration-color: white;
+ text-align: center;
+ }
+ nav{
+   float: right;
+ }
+ 
+ .textinput{
+   width:100%;
+   height: 40px;
+ padding: 5px;
+   color :grey;
+ font-family: sans-serif;
+ font-size: 20px;
+ }
+ 
+ .textarea{
+  height:200px;
+  width:100%;
+   height: 200px;
+ padding: 5px,5px,0,5px;
+ color :grey;
+ font-family: sans-serif;
+ font-size: 20px;
+ }
+ 
+ 
+ 
+ #submit{
+   font-family: sans-serif;
+   font-size: 20px;
+   text-align: center;
+   width: 125px;
+   height:40px;
+   color:white;
+   background-color: #5ba;
+   border:0;
+   margin-top:10px;
+ 
+   }
+ 
+ 
+ 
+ h1{
+   text-align: left;
+   color:#5ba;
+   padding-bottom: 10px;
+   border-bottom: lightgrey;
+   border-bottom-style: solid;
+   border-bottom-width: 3px;
+   margin: 0 auto;
+ 
+ }
+ h3{
+   text-align: left;
+   font-family: sans-serif;
+   color:grey;
+   font-size: 18px;
+   padding: 10px;
+   padding-left: 0;
+   margin: 0;
+ 
+ }
+ 
+ 
+ header {
+   margin: 0 auto;
+   border-bottom: lightgrey;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+   background: white;
+     height: 92px;
+   }
+ 
+   #namebox {
+      background-color: #5ba;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bold;
+   font-size: 35px; 
+     padding: 25px;
+     color: white;
+     height: 90px;
+     
+     width: 33%;
+     float: left;
+   }
+   
+ #bannerspan{
+   width: 960px;
+   margin: 0 auto;
+ }
+ #main{
+   width: 960px;
+   height: 500px;
+   outline-style: solid;
+   outline-color: rgb(49, 33, 33);
+   outline-width: 1px;
+   padding: 10px 25px 10px 25px;
+   background-color: white;
+   margin: 40px auto;
+   font-family: Arial, Helvetica, sans-serif;
+   color:grey;
+   overflow: hidden;
+ 
+ 
+ }
+ #main-contact{
+   width: 960px;
+   height: 550px;
+   padding: 10px 25px 10px 25px;
+   background-color: white;
+   margin: 40px auto;
+   font-family: Arial, Helvetica, sans-serif;
+   color:grey;
+ }
+ 
+ 
+ section {
+    font-size: 24px;
+ }
+ 
+ .navigation{	
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 16px;
+   text-decoration: 0;
+   background-color: #ffffff;
+     width:  300px;
+     padding: 33px 10px 33px 10px;
+     margin: auto;
+     text-align :right;
+   color: grey;	
+   text-decoration-color: white;
+   text-align: center;
+   
+ } 
+ 
+ 
+ 
+ .textarea1{
+   width:250px;
+   rows: "4";
+   cols:"50";
+   margin-bottom: 10px;
+ }
+ 
+ .floatleft{
+   float: left;
+   margin: 0px 15px 15px 0;
+ }
+ 
+ footer {
+   vertical-align: auto;
+   height: 100px;
+ width:100%;
+   clear: both;
+   color: white;
+   text-align: center;
+   background: grey;
+   border-top: #5ba;
+  border-top-style: solid;
+  border-top-width: 10px;
+  position: fixed;
+   bottom: 0;
+   
+ }
+ 
+ 
+ #porfolio-container{
+   width:960px;
+   align-content: center;
+   height: 100%;
+   background-color: white;
+   margin: 0 auto;
+   overflow: hidden;
+   padding-bottom: 100px;
+ }
+ 
+ 
+ .preview{
+   height:250px;
+   width:250px;
+   background-color: black;
+   margin: 20px;
+   float: left;
+ }
+ .previewtitle{
+   height:45px;
+   text-align: center;
+   width:250px;
+   background-color: turquoise;
+   margin: 0px;
+ position: relative;
+ bottom:90px;
+ 
+ }
+
+ @media (max-width: 980px){
+    #bannerspan{
+    width: 100%;
+    }
+    #main{
+    width: 95%;
+    height: 100%;
+    padding: 0px ;
+    margin: 20px;
+    margin-bottom: 120px;
+    }
+    #main-contact{
+    width: 95%;
+    height: 100%;
+    padding: 10px ;
+    margin: 20px;
+    margin-bottom: 120px;
+    }
+    #porfolio-container {
+    width:90%;
+    align-self: center;
+    }
+    .navigation {
+      width:95%;
+      margin:0;
+      padding:0;
+    
+      
+    }
+    }
+  
+@media (max-width: 768px){
+    #bannerspan{
+        width: 100%;
+        }
+    
+    #namebox {
+      
+        text-align: center;
+        width: 100%
+        }
+    .navigation {
+      width:100%;
+      margin:0;
+      padding:0;
+      text-align: center;
+        }
+    
+    #main{
+        width: 95%;
+        height: 100%;
+        padding: 10px ;
+        font-size: 20px;
+        margin-bottom: 120px;
+        }
+        }
+@media (max-width: 640px){
+  
+#bannerspan{
+    width: 100%;
+    }
+
+#namebox {
+  
+    text-align: center;
+    width: 100%
+    }
+.navigation {
+  width:100%;
+  margin:0;
+  padding:0;
+  text-align: center;
+    }
+
+#main{
+    width: 95%;
+    height: 100%;
+    padding: 10px ;
+    font-size: 20px;
+    margin-bottom: 120px;
+    }
+    }
