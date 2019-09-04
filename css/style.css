@@ -1,57 +1,47 @@
 
  * {
-    background-color: #ffffff;
-   box-sizing: border-box;
-   text-align: left;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  text-align: left;
  }
- .previewlinks{
-   text-decoration: turquoise;
-   font-family: Arial, Helvetica, sans-serif;
-   font-weight: bold;
-   font-size: 18px;
- }
- 
- html{
-   background-image: url("../images/email-pattern.png");
- }
- 
+
  .clear{
-   clear: both;
+    clear: both;
  }
  
- body {
-   background-image: url("../images/email-pattern.png");
- height:100%;
- margin: 0 auto;
+ body{
+    background-image: url("../images/email-pattern.png");
+    height:100%;
+    margin: 0 auto;
  }
+ 
+  nav{
+    float: right;
+ }
+
  .a-type{
- text-decoration-color: white;
- text-align: center;
- }
- nav{
-   float: right;
+    text-decoration-color: white;
+    text-align: center;
  }
  
  .textinput{
-   width:100%;
-   height: 40px;
- padding: 5px;
-   color :grey;
- font-family: sans-serif;
- font-size: 20px;
+    width:100%;
+    height: 40px;
+    padding: 5px;
+    color :grey;
+    font-family: sans-serif;
+    font-size: 20px;
  }
  
  .textarea{
-  height:200px;
-  width:100%;
-   height: 200px;
- padding: 5px,5px,0,5px;
- color :grey;
- font-family: sans-serif;
- font-size: 20px;
- }
- 
- 
+    height:200px;
+    width:100%;
+    height: 200px;
+    padding: 5px,5px,0,5px;
+    color :grey;
+    font-family: sans-serif;
+    font-size: 20px;
+}
  
  #submit{
    font-family: sans-serif;
@@ -64,9 +54,7 @@
    border:0;
    margin-top:10px;
  
-   }
- 
- 
+}
  
  h1{
    text-align: left;
@@ -78,6 +66,7 @@
    margin: 0 auto;
  
  }
+
  h3{
    text-align: left;
    font-family: sans-serif;
@@ -89,33 +78,32 @@
  
  }
  
- 
- header {
-   margin: 0 auto;
-   border-bottom: lightgrey;
+header {
+  margin: 0 auto;
+  border-bottom: lightgrey;
   border-bottom-style: solid;
   border-bottom-width: 2px;
-   background: white;
-     height: 92px;
-   }
+  background: white;
+  height: 92px;
+}
  
-   #namebox {
-      background-color: #5ba;
-   font-family: 'Times New Roman', Times, serif;
-   font-weight: bold;
-   font-size: 35px; 
-     padding: 25px;
-     color: white;
-     height: 90px;
-     
-     width: 33%;
-     float: left;
-   }
+#myname {
+  background-color: #5ba;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 35px; 
+  padding: 25px;
+  color: white;
+  height: 90px;  
+  width: 33%;
+  float: left;
+}
    
- #bannerspan{
+ #navbar{
    width: 960px;
    margin: 0 auto;
  }
+
  #main{
    width: 960px;
    height: 500px;
@@ -129,7 +117,6 @@
    color:grey;
    overflow: hidden;
  
- 
  }
  #main-contact{
    width: 960px;
@@ -141,33 +128,35 @@
    color:grey;
  }
  
- 
- section {
-    font-size: 24px;
+section {
+  font-size: 24px;
  }
  
- .navigation{	
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
-   font-size: 16px;
-   text-decoration: 0;
-   background-color: #ffffff;
-     width:  300px;
-     padding: 33px 10px 33px 10px;
-     margin: auto;
-     text-align :right;
-   color: grey;	
-   text-decoration-color: white;
-   text-align: center;
-   
- } 
+.navigation{	
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  text-decoration: 0;
+  background-color: #ffffff;
+  width:  300px;
+  padding: 33px 10px 33px 10px;
+  margin: auto;
+  text-align :right;
+  color: grey;	
+  text-decoration-color: white;
+  text-align: center;  
+} 
  
+.previewlinks{
+  text-decoration: turquoise;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
  
- 
- .textarea1{
-   width:250px;
-   rows: "4";
-   cols:"50";
-   margin-bottom: 10px;
+.textarea1{
+  width:250px;
+  rows: "4";
+  margin-bottom: 10px;
  }
  
  .floatleft{
@@ -176,19 +165,18 @@
  }
  
  footer {
-   vertical-align: auto;
-   height: 100px;
- width:100%;
-   clear: both;
-   color: white;
-   text-align: center;
-   background: grey;
-   border-top: #5ba;
+  vertical-align: auto;
+  height: 100px;
+  width:100%;
+  clear: both;
+  color: white;
+  text-align: center;
+  background: grey;
+  border-top: #5ba;
   border-top-style: solid;
   border-top-width: 10px;
   position: fixed;
-   bottom: 0;
-   
+  bottom: 0;
  }
  
  
@@ -210,96 +198,88 @@
    margin: 20px;
    float: left;
  }
+
  .previewtitle{
    height:45px;
    text-align: center;
    width:250px;
    background-color: turquoise;
    margin: 0px;
- position: relative;
- bottom:90px;
- 
+  position: relative;
+  bottom:90px;
  }
 
  @media (max-width: 980px){
-    #bannerspan{
-    width: 100%;
-    }
-    #main{
-    width: 95%;
-    height: 100%;
-    padding: 0px ;
-    margin: 20px;
-    margin-bottom: 120px;
-    }
-    #main-contact{
-    width: 95%;
-    height: 100%;
-    padding: 10px ;
-    margin: 20px;
-    margin-bottom: 120px;
-    }
-    #porfolio-container {
-    width:90%;
-    align-self: center;
-    }
-    .navigation {
-      width:95%;
-      margin:0;
-      padding:0;
-    
-      
-    }
-    }
+#navbar{
+  width: 100%;
+}
+#main{
+  width: 95%;
+  height: 100%;
+  padding: 0px ;
+  margin: 20px;
+  margin-bottom: 120px;
+}
+#main-contact{
+  width: 95%;
+  height: 100%;
+  padding: 10px ;
+  margin: 20px;
+  margin-bottom: 120px;
+}
+#porfolio-container {
+  width:90%;
+  align-self: center;
+}
+.navigation {
+  width:95%;
+  margin:0;
+  padding:0;
+}
+}
   
 @media (max-width: 768px){
-    #bannerspan{
-        width: 100%;
-        }
-    
-    #namebox {
-      
-        text-align: center;
-        width: 100%
-        }
-    .navigation {
-      width:100%;
-      margin:0;
-      padding:0;
-      text-align: center;
-        }
-    
-    #main{
-        width: 95%;
-        height: 100%;
-        padding: 10px ;
-        font-size: 20px;
-        margin-bottom: 120px;
-        }
-        }
-@media (max-width: 640px){
-  
-#bannerspan{
-    width: 100%;
-    }
-
-#namebox {
-  
-    text-align: center;
-    width: 100%
-    }
+#navbar{
+  width: 100%;
+}
+#myname{
+  text-align: center;
+  width: 100%
+}
 .navigation {
   width:100%;
   margin:0;
   padding:0;
   text-align: center;
-    }
-
+}
+    
 #main{
-    width: 95%;
-    height: 100%;
-    padding: 10px ;
-    font-size: 20px;
-    margin-bottom: 120px;
-    }
-    }
+  width: 95%;
+  height: 100%;
+  padding: 10px ;
+  font-size: 20px;
+  margin-bottom: 120px;
+}
+}
+@media (max-width: 640px){
+#navbar{
+  width: 100%;
+}
+#myname {
+  text-align: center;
+  width: 100%
+}
+.navigation {
+  width:100%;
+  margin:0;
+  padding:0;
+  text-align: center;
+}
+#main{
+  width: 95%;
+  height: 100%;
+  padding: 10px ;
+  font-size: 20px;
+  margin-bottom: 120px;
+}
+}
